@@ -25,6 +25,7 @@ namespace ool_service_user
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.InjectionMap();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
