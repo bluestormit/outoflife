@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/ool_service_user/ool_service_user/.vs/ool_service_user/v16
+/ool_service_user/ool_service_user/ool_service_user/bin/Debug/netcoreapp2.2
+/ool_service_user/ool_service_user/ool_service_user/obj
+/.vs/ProjectOutOfLife/v16
