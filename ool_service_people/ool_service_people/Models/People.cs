@@ -1,4 +1,7 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson.Serialization.IdGenerators;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +11,9 @@ namespace ool_service_people.Models
 {
     public class People
     {
-        [BsonId]
-        public string Id { get; set; }
+
+        [JsonIgnore]
+        public ObjectId Id { get; set; }
         [BsonRequired]
         public string IdUser { get; set; }
         [BsonRequired]
@@ -20,5 +24,10 @@ namespace ool_service_people.Models
         public Genre Genre { get; set; }
         [BsonRequired]
         public Attributes Attributes { get; set; }
+        [JsonProperty("IdPeople")]
+        public string IdPeople
+        {
+            get => this.Id.ToString();
+        }
     }
 }

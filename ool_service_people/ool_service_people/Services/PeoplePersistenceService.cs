@@ -1,10 +1,6 @@
 ﻿using ool_service_people.Models;
 using ool_service_people.Repositories.Interfaces;
 using ool_service_people.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ool_service_people.Services
 {
