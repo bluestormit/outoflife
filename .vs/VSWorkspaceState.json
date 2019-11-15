@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ool_service_people",
+    "\\ool_service_people\\ool_service_people",
+    "\\ool_service_user",
+    "\\ool_service_user\\ool_service_user",
+    "\\ool_service_user\\ool_service_user\\ool_service_user",
+    "\\ool_service_user\\ool_service_user\\ool_service_user\\Models",
+    "\\ool_service_user\\ool_service_user\\ool_service_user\\Repositories",
+    "\\ool_service_user\\ool_service_user\\ool_service_user\\Repositories\\Interfaces",
+    "\\ool_service_user\\ool_service_user\\ool_service_user\\Services"
   ],
-  "SelectedNode": "\\ool_service_user",
+  "SelectedNode": "\\ool_service_user\\ool_service_user\\ool_service_user\\InjectionMapExtends.cs",
   "PreviewInSolutionExplorer": false
 }
